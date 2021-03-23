@@ -1,0 +1,69 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.input-box{
+    width: 50%; height: 40px;
+    margin: auto;
+    position: relative;
+
+    input{
+        width: 100%; height: 100%;
+        padding: 0 20px;
+        font-size: 18px;
+        font-weight: bolder;
+        border-radius: 5px;
+        text-transform: uppercase;
+        color: $color-bg;
+        background: $primary;
+    }
+
+    .icon-search{
+        width: 20%; height: 100%;
+        @include d-flex-alig-center;
+        position: absolute;
+        bottom: 0px; right: 0px;
+        cursor: pointer;
+        overflow: hidden;
+        border-radius: 5px;
+        background: $primary;
+    }
+
+    
+}
+
+// MENSAGEM DE ERRO DO INPUT
+.input-box-erro{
+    &::after{
+        content: '';
+        width: 100%; height: 4px;
+        position: absolute;
+        bottom: 0; left: 0;
+        background: $erro-msg;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}
+
+.spin{
+    animation: rotate-icon 2s ease-in-out infinite;
+}
+
+@keyframes rotate-icon{
+    from{
+        transform: rotate(0deg);
+    
+    }
+
+    to{
+        transform: rotate(720deg);
+    }
+}
+
+@media (max-width: 710px) {
+
+    .input-box{
+        width: 100%; height: 40px;
+    }
+}

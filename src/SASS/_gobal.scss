@@ -1,0 +1,44 @@
+@mixin d-flex-alig-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin d-flex-space-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+@keyframes show-icon{
+    from{
+        transform: translateX(-200%);
+        opacity: .5;
+    }
+
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+
+@mixin animation-mixin($name, $direction) {
+    @keyframes #{$name} {
+        from{
+            transform: translateX($direction);
+        }
+
+        to{
+            transform: translateX(0%);
+        }
+    }
+}
+
+
+
+
+
+
+
