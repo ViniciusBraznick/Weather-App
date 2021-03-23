@@ -5,7 +5,7 @@ export default function Card (props){
 
     useEffect(() => {
         setWeatherData(props.weather);
-    })
+    },[props.weather])
     
     const parseToInt = data => Math.floor(parseInt(data));
 
