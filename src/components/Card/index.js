@@ -20,7 +20,7 @@ export default function Card (props){
                     </div>
 
                     <ul>
-                        <li>Sensação termica: <span>{parseToInt(weatherData.main.feels_like)}º</span></li>
+                        <li>Sensação térmica: <span>{parseToInt(weatherData.main.feels_like)}º</span></li>
                         <li>Pressão: <span>{weatherData.main.pressure}hPa</span></li>
                         <li>Umidade: <span>{weatherData.main.humidity}%</span></li>
                         <li>Vento: <span>{parseToInt(weatherData.wind.speed)}m/s</span></li>
