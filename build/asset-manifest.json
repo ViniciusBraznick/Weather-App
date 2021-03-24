@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d1881f8.chunk.css",
-    "main.js": "/static/js/main.3539e370.chunk.js",
-    "main.js.map": "/static/js/main.3539e370.chunk.js.map",
+    "main.css": "/static/css/main.8d91054d.chunk.css",
+    "main.js": "/static/js/main.76ff8476.chunk.js",
+    "main.js.map": "/static/js/main.76ff8476.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dd2d0ae3.js",
     "runtime-main.js.map": "/static/js/runtime-main.dd2d0ae3.js.map",
     "static/js/2.f895f2e5.chunk.js": "/static/js/2.f895f2e5.chunk.js",
     "static/js/2.f895f2e5.chunk.js.map": "/static/js/2.f895f2e5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.2d1881f8.chunk.css.map": "/static/css/main.2d1881f8.chunk.css.map",
+    "static/css/main.8d91054d.chunk.css.map": "/static/css/main.8d91054d.chunk.css.map",
     "static/js/2.f895f2e5.chunk.js.LICENSE.txt": "/static/js/2.f895f2e5.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/static/media/Orkney Regular.46a60243.otf"
   },
   "entrypoints": [
     "static/js/runtime-main.dd2d0ae3.js",
     "static/js/2.f895f2e5.chunk.js",
-    "static/css/main.2d1881f8.chunk.css",
-    "static/js/main.3539e370.chunk.js"
+    "static/css/main.8d91054d.chunk.css",
+    "static/js/main.76ff8476.chunk.js"
   ]
 }
